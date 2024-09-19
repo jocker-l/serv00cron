@@ -16,5 +16,7 @@ Route::get('think', function () {
 
 Route::get('hello/:name', 'index/hello');
 
+Route::get("test/:name", 'index/hello');
+
 Route::get("serv00/start", "cron/index");
 Route::get("serv00/stop", "cron/stop");
